@@ -1,0 +1,128 @@
+h1{
+	color: rgb(252,196,15) ;
+	font-size:50px;
+	font-family: 'Arial;', sans-serif;
+	font-weight:30px;
+	text-align:center;
+} 
+
+h2{
+	font-weight:bolder;
+	color: rgb(83, 20, 37);
+	font-size:30px;
+	font-family: 'Arial;', sans-serif;
+	text-align:center;
+}
+
+#card-1 {
+	text-align:center;
+}
+
+body {
+	background: rgb(81,19,199);
+}
+
+.para {
+	font-family:'Arial;', sans-serif;
+	font-size:15px;
+	color:black;
+}
+
+a {
+	padding:6px;
+	border-radius:4px;
+	font-size:12px;
+	font-family: 'Arial;', sans-serif;
+	display: inline;
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    background: rgb(252,196,15);
+}
+
+li {
+	margin-bottom: 50px;
+	text-align: center;
+	list-style-type: none;
+}
+
+a:hover {
+	background: rgb(252,196,15);
+}
+
+h3 {
+	font-weight:bolder;
+	color: rgb(252,196,15);
+	font-size:16px;
+	font-family: 'Arial', sans-serif;
+}
+
+#img-circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 75%;
+}
+
+.card-white {
+	background: white;
+	padding: 30px; 
+	border-radius: 4px; 
+	box-shadow: 0 10px 30px rgb(252,196,15);
+	margin: 0px auto;
+	width: 700px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+form {
+	margin:0px auto;
+}
+
+.banner {
+  /* 1. Set a background image */
+  background-image: url(images/banniere.png);   
+  /* 2. Make the background image cover the banner div */
+	background-size: cover;     
+  /* 3. Center the image */
+	background-position: center;
+	height: 600px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	padding: 20px;
+}
+.card img {
+  width: 150px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+#img {
+	border-radius: 50%;
+}
+.cards {
+  display: flex;
+	flex-wrap: wrap;
+}
+.card{
+  flex-basis: 250px;
+	flex-grow: 1;
+	margin: 10px;
+}
+
+#form{
+	text-align:center;
+	margin:auto;
+	padding:20px;
+}
